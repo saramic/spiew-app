@@ -6,21 +6,26 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body>
+<body ng-app="SpiewApp" ng-controller="SongCtrl">
 
 <div class="pure-menu pure-menu-open pure-menu-horizontal">
     <a href="#" class="pure-menu-heading">śpiew App</a>
 
     <ul>
         <li class="pure-menu-selected"><a href="#"></a></li>
-        <li><a href="#">Search</a></li>
+        <li><a href="#">
+            <form class="pure-form">
+                Filter
+                <input type="text" ng-model="filterTerm">
+            </form>
+        </a></li>
     </ul>
 </div>
 
-<div class="l-content" ng-app="SpiewApp">
+<div class="l-content">
 
-    <div class="pure-g-r" ng-controller="SongCtrl">
-        <div class="song pure-u-1" ng-repeat="song in songs | orderBy:'title'">
+    <div class="pure-g-r">
+        <div class="song pure-u-1" ng-repeat="song in songs |  filter:{title: filterTerm || ''} | orderBy:'title'">
             <h3>{{ song.title }}</h3>
 
             <p ng-class="verse.type" ng-repeat="verse in song.verses">
