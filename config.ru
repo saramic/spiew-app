@@ -14,3 +14,17 @@ map "/" do
     ]
   }
 end
+
+map "/data/harcerskie.json" do
+  run lambda { |env|
+    [
+      200,
+      {
+        'Content-Type'  => 'application/json; charset=utf-8',
+        'Cache-Control' => 'public, max-age=1'
+      },
+      File.open('public/data/harcerskie.json', File::RDONLY)
+    ]
+  }
+end
+

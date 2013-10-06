@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Hymn Związku Harcerstwa Polskiego",
+        "verses": [
+            {
+                "type": "verse",
+                "lines": [
+                    "Wszystko co nasze, Polsce oddamy,",
+                    "W niej tylko życie, więc idziem żyć.",
+                    "Świty się bielą, otwórzmy bramy,",
+                    "Rozkaz wydany : Wstań ! W słońce idź !"
+                ]
+            },
+            {
+                "type": "chorus",
+                "lines": [
+                    "Ramię pręż, słabość krusz,",
+                    "Ducha tęż ! Ojczyźnie miłej służ !",
+                    "Na jej zew, w bój czy trud",
+                    "Pójdzie rad harcerzy polskich ród,",
+                    "Harcerzy polskich ród."
+                ]
+            },
+            {
+                "type": "verse",
+                "lines": [
+                    "Czynem bogaci, myślą skrzydlaci,",
+                    "Z płomiennych serc uczyńmy grot.",
+                    "Naprzód wytrwale, śmiało, zuchwale,",
+                    "W podniebne szlaki skierujmy lot."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Modlitwa Harcerska",
+        "verses": [
+            {
+                "type": "verse",
+                "lines": [
+                    "O Panie Boże, Ojcze nasz,",
+                    "w opiece swej nas miej,",
+                    "harcerskich serc ty drgnienia znasz,",
+                    "nam pomóc zawsze chciej."
+                ]
+            },
+            {
+                "type": "chorus",
+                "lines": [
+                    "Wszak Ciebie i Ojczyznę,",
+                    "Miłując chcemy żyć.",
+                    "Harcerskim prawom życia dnia,",
+                    "Wiernymi zawsze być."
+                ]
+            },
+            {
+                "type": "verse",
+                "lines": [
+                    "I daj nam zdrowie dusz i ciał,",
+                    "Swym światłem zagłusz noc.",
+                    "I daj nam hart tatrzańskich skał,",
+                    "I twórczą wzbudź w nas moc."
+                ]
+            },
+            {
+                "type": "verse",
+                "lines": [
+                    "O Panie Boże, Ojcze nasz!",
+                    "Żeglarzy młodych huf,",
+                    "Modlitwy swoje kornie śle",
+                    "Z tych naszych polskich wód"
+                ]
+            }
+        ]
+    }
+
+]
