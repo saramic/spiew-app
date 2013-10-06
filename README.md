@@ -12,6 +12,10 @@ Expected features are expected to include
 * annotate with local changes in words
 * etc
 
+### Demo
+
+http://spiew-app.herokuapp.com/
+
 ### getting started
 
 rackup
@@ -27,8 +31,6 @@ rackup
 
 ### MVP (Minimum Viable Product)
 
-* source control
-* deploy
 * Search & display song
 * html5 offline application cache
   https://developer.apple.com/library/safari/documentation/iphone/conceptual/safarijsdatabaseguide/OfflineApplicationCache/OfflineApplicationCache.html
