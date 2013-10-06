@@ -32,6 +32,8 @@ rackup
 ### MVP (Minimum Viable Product)
 
 * Search & display song
+* A song list
+* script to convert songs into data format
 * html5 offline application cache
   https://developer.apple.com/library/safari/documentation/iphone/conceptual/safarijsdatabaseguide/OfflineApplicationCache/OfflineApplicationCache.html
 * some level of automated tests
