@@ -1,0 +1,30 @@
+body {
+  color: #526066;
+}
+.song {
+  font-size: 100%;
+  padding: 0.5em 1em;
+}
+
+.song p {
+  line-height: 1.6em;
+}
+.song p.chorus {
+  padding-left: 1em;
+}
+/** {*/
+  /*box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+  /*background: whitesmoke;*/
+/*}*/
+
+/*.hide {*/
+  /*display: none;*/
+/*}*/
+
+/*.full-width {*/
+  /*width: 100%;*/
+  /*height: 5em;*/
+/*}*/
