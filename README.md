@@ -22,11 +22,6 @@ rackup
 
 ### Song Sources
 
-#### Polskie Piosenki Harcerskie
-* Polish Scout Songs *
-
-* from http://pisdh.sopot.zhp.pl/poradnik-harcerski/spiewnik-harcerski/
-
 ## TODO
 
 ### MVP (Minimum Viable Product)
@@ -34,8 +29,15 @@ rackup
 * Search & display song
 * A song list
 * script to convert songs into data format
-* html5 offline application cache
+* html5 offline application cache works now get the refersh working
   https://developer.apple.com/library/safari/documentation/iphone/conceptual/safarijsdatabaseguide/OfflineApplicationCache/OfflineApplicationCache.html
+
+  function updateSite(event) {
+    window.applicationCache.swapCache();
+  }
+  window.applicationCache.addEventListener('updateready',
+  updateSite, false);
+
 * some level of automated tests
 
 ### Other

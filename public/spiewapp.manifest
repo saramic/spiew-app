@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# Cache manifest version 0.0.1
+
+CACHE:
+# Additional items to cache.
+
+css/pure-min.css
+css/styles.css
+js/angular.js
+js/spiewapp.js
+data/harcerskie.json
+index.html
